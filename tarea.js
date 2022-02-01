@@ -12,7 +12,7 @@ function cadCaracteres(array){
 console.log(cadCaracteres(vectorcadenas));
 //chequear si uno de los elementos de la matriz es true
 
-const vectorBooleano=[[true,true,true],[true,true,true],[true,true,true]];
+const vectorBooleano=[[false,false,false],[false,false,false],[false,false,true]];
 
 function matrizTrue(element) { 
     return element == true; 
